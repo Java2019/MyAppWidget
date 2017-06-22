@@ -6,7 +6,7 @@
                  android:icon="@mipmap/ic_launcher"
                  android:supportsRtl="true"
                  android:theme="@style/AppTheme">
-    <receiver android:name=".HomeScreenWidgetProvider">
+    <receiver android:name="HomeScreenWidgetProvider">
               <intent-filter>
                   <action
                       android:name = "android.appwidget.action.APPWIDGET_UPDATE"/>
